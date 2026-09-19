@@ -38,7 +38,7 @@ En el editor de Apps Script:
 Antes de correrlo por primera vez, confirma en la [documentación de Gemini](https://ai.google.dev/gemini-api/docs/models) que el valor de la constante `MODEL_NAME` en el código corresponde a un modelo real y disponible. Si el nombre está mal, la primera ejecución debería fallar rápido con un error de tipo `CONFIGURACION` (HTTP 404) y notificarte por correo — es la forma más simple de detectarlo.
 
 ### 5. Pegar el código
-Copia el contenido de [`procesarMovimientosCorreo.gs`](./procesarMovimientosCorreo.gs) dentro de un archivo `.gs` en el editor de Apps Script (Extensiones → Apps Script, desde tu Google Sheet).
+Copia el contenido de [`gmail-sheets-automation.gs`](./procesarMovimientosCorreo.gs) dentro de un archivo `.gs` en el editor de Apps Script (Extensiones → Apps Script, desde tu Google Sheet).
 
 ### 6. Configurar un trigger de tiempo
 Para que el script corra solo:
